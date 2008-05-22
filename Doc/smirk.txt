@@ -1,0 +1,53 @@
+                                 Smirk
+                          version 1.2 by DEATH
+
+Introduction
+-------------
+Smirk is a desktop switcher for Windows NT/2000/XP. It allows you to use
+up to 4 desktops with very easy accessibility and simplicity.
+
+Usage
+------
+Just run Smirk.exe . A notification icon should appear, from there you can
+choose which desktop to switch to. You can also switch desktops using the
+keyboard combination CTRL + ALT + F1/F2/F3/F4 .
+
+If for some reason Smirk doesn't work, or shows an error, contact me.
+
+Some notes:
+    If the close shell option is disabled:
+    The shell instances will still exist after you exit Smirk, if you
+    re-enter Smirk, it will use them.
+
+    If the close children option is disabled:
+    The shell child processes will still exist after you exit Smirk.
+
+History
+--------
+1.0     -   Initial release.
+1.1     -   Minor bugfixes
+        -   Added desktop descriptions (instead of Desktop 0/1/2/3)
+        -   "Smirk cannot detect when the shell is ready to install the
+             notification icon. It will try to install it when the user
+             switches a desktop, unless the desktop already exists,
+             then the shell will surely be ready."
+            This is fixed. Smirk now accepts the taskbar creation
+            notification message.
+1.2     -   Minor bugfix on shell start-up.
+        -   Smirk can now close the shell and/or its child processes.
+            Notice: Smirk will only close the shell if it was created by
+            the same Smirk instance.
+        -   Internal source code redesign.
+1.x     -   Now includes a better process closing module.
+
+
+Contact
+--------
+Web: http://execution.cjb.net/
+E-mail: ab4ds@hotmail.com
+IRC: _death@EFnet #execution, #cracking4newbies
+
+Always remember
+----------------
+DON'T CROSS THE ROAD UNTIL THE LITTLE MAN SHOWS GREEN!
+(LinkIt! forevah!)
